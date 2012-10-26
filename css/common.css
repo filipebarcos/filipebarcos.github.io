@@ -1,0 +1,22 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+div {
+  display: block;
+}
+.menu {
+  color: #BBB;
+  top: 0;
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+  margin-botton: 0;
+  background-color: #FFF;
+}
+
+.menu-item {
+}
