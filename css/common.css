@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: "Open Sans",Helvetica,Arial,sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-color: #000;
 }
@@ -40,14 +40,12 @@ a {
 }
 
 .header .name {
-	padding-top: 2px;
 	padding-left: 150px;
 	float:left;
 }
 
 /* ------ MENU ------ */
 .header .menu {
-	padding-top: 2px;
 	padding-right: 150px;
 	float: right;
 }
