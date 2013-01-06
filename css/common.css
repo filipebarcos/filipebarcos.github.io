@@ -91,5 +91,6 @@ a {
 }
 
 .profile-pic {
-  text-align: center;
+  background: url('../images/profile.jpg') no-repeat;
+  height: 598;
 }
