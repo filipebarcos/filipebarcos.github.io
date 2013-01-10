@@ -1,3 +1,6 @@
+@black: #000;
+@grey: #616161;
+@dark-grey: #131313;
 * {
 	padding: 0;
 	margin: 0;
@@ -7,11 +10,21 @@
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-  font-color: #000;
+  font-color: @black;
 }
 
 a {
   text-decoration: none;
+  color: @black;
+}
+
+a:visited {
+  color: @black;
+}
+
+p a {
+  text-decoration: none;
+  border-bottom: 1px dashed @dark-grey;
 }
 
 .content {
@@ -20,8 +33,8 @@ a {
 
 /* ------ HEADER ------ */
 .header {
-  background: -webkit-linear-gradient(#616161, #131313);
-  background: -moz-linear-gradient(#616161, #131313);
+  background: -webkit-linear-gradient(@grey, @dark-grey);
+  background: -moz-linear-gradient(@grey, @dark-grey);
 	height: 24px;
 	top: 0;
   position: fixed;
@@ -92,5 +105,16 @@ a {
 
 .profile-pic {
   background: url('../images/profile.jpg') no-repeat;
-  height: 598;
+  height: 169;
+  width: 188;
+  float: left;
+  margin-right: 10px;
+}
+
+.profile-text {
+  overflow: hidden;
+}
+
+section.profile {
+  margin-top: 70px;
 }
