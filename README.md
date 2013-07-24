@@ -1,4 +1,4 @@
-filipebarcos.github.com
+filipebarcos.github.io
 =======================
 
 [en-us]
