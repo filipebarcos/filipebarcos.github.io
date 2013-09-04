@@ -5,14 +5,31 @@
   -webkit-font-smoothing: antialiased;
 }
 
+body {
+  font-style: normal;
+  font-size: 1.125em;
+  font-family: "Lucida Grande", Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+  a:visited {
+    color: #000000;
+  }
+
 .main-nav {
   margin-top: 2em;
 }
+  .main-nav ul {
 
-  .main-nav ul li {
-    display: inline;
-    font-size: 1.25em;
   }
+    .main-nav ul li {
+      display: inline;
+      font-size: 1.25em;
+      padding-right: 1em;
+    }
 
 .content {
   margin: 0 auto;
