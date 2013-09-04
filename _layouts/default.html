@@ -3,31 +3,33 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>{{ page.title }}</title>
-    <link type="text/css" href="/assets/css/common.css" media="screen, projection" />
-		<link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+    <link href="/css/main.css" rel="stylesheet" />
   </head>
 
   <body>
-    <div class="header">
-			<section class="name"><a href="/"><strong>FILIPE</strong>COSTA</a></section>
-			<ul class="menu">
-	      <li><a href="/blog">BLOG</a></li>
-	      <li><a href="/about">ABOUT</a></li>
-			</ul>
-    </div>
+    <div class="container">
+      <header class="header">
+        <nav class="main-nav">
+    			<ul>
+    	      <li><a href="/blog">BLOG</a></li>
+    	      <li><a href="/about">ABOUT</a></li>
+    			</ul>
+        </nav>
+      </header>
 
-    <div class="content">
-      {{ content }}
-    </div>
+      <div class="content">
+        {{ content }}
+      </div>
 
-    <div class="footer">
-      <ul class="social-links">
-        <li class="twitter"><a href="http://twitter.com/filipebarcos" target="_blank" title="follow me on twitter!"></a></li>
-        <li class="linkedin"><a href="http://br.linkedin.com/filipebarcos" target="_blank" title="add me on linkedIn!"></a></li>
-        <li class="github"><a href="http://github.com/filipebarcos" target="_blank" title="follow me on github!"></a></li>
-      </ul>
+      <footer class="main-footer">
+        <ul class="social-links">
+          <li class="twitter"><a href="http://twitter.com/filipebarcos" target="_blank" title="follow me on twitter!"></a></li>
+          <li class="linkedin"><a href="http://br.linkedin.com/filipebarcos" target="_blank" title="add me on linkedIn!"></a></li>
+          <li class="github"><a href="http://github.com/filipebarcos" target="_blank" title="follow me on github!"></a></li>
+        </ul>
+      </footer>
     </div>
-
   </body>
 </html>
