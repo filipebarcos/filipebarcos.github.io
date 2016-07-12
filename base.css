@@ -37,6 +37,13 @@ section h2 {
   line-height: 2;
 }
 
+section h5 {
+  color: #999;
+  font-weight: normal;
+  font-style: italic;
+  margin-bottom: 0.6em;
+}
+
 section p {
   line-height: 1.5;
   padding-bottom: 10px;
