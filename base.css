@@ -29,6 +29,10 @@ a:hover, a:visited {
   overflow: hidden;
 }
 
+.left li {
+  display: inline;
+}
+
 .right {
   margin-left: 20%;
 }
