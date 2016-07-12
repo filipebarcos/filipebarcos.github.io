@@ -31,6 +31,7 @@ a:hover, a:visited {
 
 .left li {
   display: inline;
+  margin: auto 0.2em 0.2em auto;
 }
 
 .right {
