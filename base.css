@@ -11,6 +11,11 @@ html {
 a {
   text-decoration: none;
   font-weight: bold;
+  color: black;
+}
+
+a:hover, a:visited {
+  color: inherit;
 }
 
 .content {
@@ -51,8 +56,4 @@ footer {
 footer bold {
   font-family: sans-serif;
   font-size: 0.9em;
-}
-
-footer a:hover, a:visited {
-  color: inherit;
 }
