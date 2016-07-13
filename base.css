@@ -31,9 +31,24 @@ a:hover, a:visited {
   margin-top: 1em;
 }
 
+.left h3 {
+  color: #7d7d7d;
+  font-family: serif;
+  font-weight: lighter;
+}
+
+.left h4 {
+  text-decoration: underline;
+}
+
 .left li {
   display: inline;
   margin: auto 0.2em 0.2em auto;
+}
+
+.left ul {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 .left img {
