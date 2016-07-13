@@ -64,6 +64,10 @@ section h5 {
   margin-bottom: 0.6em;
 }
 
+section.talks p {
+  padding-bottom: 0;
+}
+
 section p {
   line-height: 1.5;
   padding-bottom: 10px;
