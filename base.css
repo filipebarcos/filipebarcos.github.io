@@ -20,7 +20,7 @@ a:hover, a:visited {
 
 .content {
   margin: 0 auto;
-  width: 960px;
+  width: 80%;
 }
 
 .left {
@@ -37,6 +37,7 @@ a:hover, a:visited {
 }
 
 .left img {
+  height: auto;
   border-radius: 50%;
   display: block;
   width: 80%;
@@ -80,11 +81,46 @@ footer {
   margin-top: 2em;
   margin-bottom: 2em;
   color: #aaa;
-  width: 960px;
+  width: 100%;
   text-align: center;
 }
 
 footer bold {
   font-family: sans-serif;
   font-size: 0.9em;
+}
+
+@media (max-width: 768px) {
+  .content {
+    width: 100%;
+  }
+
+  .right {
+    width: 70%;
+  }
+}
+
+@media (max-width: 425px) {
+  .content {
+    width: 100%;
+  }
+
+  .left {
+    float: none;
+    display: inline;
+  }
+
+  .left img {
+    width: 40%;
+    margin-top: 1em;
+  }
+
+  .right {
+    margin: auto;
+    width: 90%;
+  }
+
+  .right p {
+    font-size: 0.85em;
+  }
 }
